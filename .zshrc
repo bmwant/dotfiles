@@ -64,7 +64,8 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -78,7 +79,7 @@ source $ZSH/oh-my-zsh.sh
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
-
+export KPIDATA_SRC="~/code/kpidata"
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -98,3 +99,10 @@ alias dme='eval $(docker-machine env default)'
 alias jjb-hq='export JJB_CONF_PATH=/etc/jenkins_jobs/jenkins_hq.ini'
 alias jjb-mb='export JJB_CONF_PATH=/etc/jenkins_jobs/jenkins_mbtest.ini'
 alias gsha='git rev-parse --short HEAD'
+alias hist='fc -l -20'
+alias ared='~/.pip/toggle_pip_artifactory.sh'
+alias treel='tree -L 2'
+alias vim='nvim'
+alias vi='nvim'
+
+export PATH=/Users/mihailbehersky/.virtualenvs/aiohttp_jinja2/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Users/mihailbehersky/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/Library/TeX/texbin:/Users/mihailbehersky/.vimpkg/bin
