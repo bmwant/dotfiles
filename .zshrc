@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/mihailbehersky/.oh-my-zsh
+export ZSH=/Users/bmwant/.oh-my-zsh
 
 # Virtualenv wrapper
 export WORKON_HOME=$HOME/.virtualenvs
@@ -105,4 +105,3 @@ alias treel='tree -L 2'
 alias vim='nvim'
 alias vi='nvim'
 
-export PATH=/Users/mihailbehersky/.virtualenvs/aiohttp_jinja2/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Users/mihailbehersky/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/Library/TeX/texbin:/Users/mihailbehersky/.vimpkg/bin
