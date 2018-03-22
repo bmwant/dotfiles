@@ -1,0 +1,11 @@
+[user]
+    email = bmwant@gmail.com
+    name = Misha Behersky
+[push]
+    default = current
+[alias]
+    cr = !"git add -A; git commit -am \"$(curl -s http://whatthecommit.com/index.txt)\""
+    co = checkout
+    br = !"git branch | grep -e \"^*\" | cut -d' ' -f 2"
+[core]
+    editor = vim
