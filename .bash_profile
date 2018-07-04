@@ -47,10 +47,12 @@ alias ll='ls -l'
 alias la='ls -lha'
 alias dms='docker-machine start default'
 alias dme='eval $(docker-machine env default)'
-alias jjb-hq='export JJB_CONF_PATH=/etc/jenkins_jobs/jenkins_hq.ini'
-alias jjb-mb='export JJB_CONF_PATH=/etc/jenkins_jobs/jenkins_mbtest.ini'
 alias gsha='git rev-parse --short HEAD'
 alias history='history | tail -n 30'
+alias clp='xclip -selection clipboard'
+alias tb='nc termbin.com 9999'
+alias tbc='nc termbin.com 9999 | xclip -selection clipboard'
+alias findf='find 2>/dev/null / -name'
 
 # Setting PATH for Python 3.5
 # The original version is saved in .bash_profile.pysave
