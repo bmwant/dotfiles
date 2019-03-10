@@ -1,0 +1,13 @@
+[user]
+	name = Misha Behersky
+	email = bmwant@gmail.com
+[color]
+	diff = auto
+	status = auto
+[push]
+    default = current
+[alias]
+    co = checkout
+    br = !"git branch | grep -e \"^*\" | cut -d' ' -f 2"
+[core]
+    editor = vim

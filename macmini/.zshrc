@@ -100,6 +100,10 @@ function gi() { curl -sLw "\n" https://www.gitignore.io/api/$@ ;}
 
 # Aliases
 
+alias pp="export PYTHONPATH=`pwd`"
+alias gpom='git checkout master && git pull origin master'
+alias gpod='git checkout develop && git pull origin develop'
+alias gsha='git rev-parse --short HEAD'
 alias vim='nvim'
 alias vi='nvim'
 alias cat='lolcat'
