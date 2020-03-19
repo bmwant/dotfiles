@@ -10,6 +10,8 @@
 	<integer>1</integer>
 	<key>AppleWindowTabbingMode</key>
 	<string>manual</string>
+	<key>CopySelection</key>
+	<false/>
 	<key>Custom Color Presets</key>
 	<dict>
 		<key>Batman</key>
@@ -631,9 +633,9 @@
 	<key>NSWindow Frame ProfilesPanel</key>
 	<string>907 552 735 382 0 0 1920 1080 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>607 459 918 512 0 0 1920 1057 </string>
+	<string>141 439 796 486 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>818 334 810 500 0 0 1920 1057 </string>
+	<string>447 328 858 518 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>1088 497 810 500 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -1989,11 +1991,13 @@
 	<key>NoSyncInstallationId</key>
 	<string>E808C205-B555-4F61-A7D9-FCBF79E71B7C</string>
 	<key>NoSyncLastTipTime</key>
-	<real>573845449.74707198</real>
+	<real>576497028.79751503</real>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>571748839.10479498</real>
+	<key>NoSyncTipsDisabled</key>
+	<true/>
 	<key>NoSyncTipsToNotShow</key>
 	<array>
 		<string>000</string>
@@ -2012,6 +2016,29 @@
 		<string>0012</string>
 		<string>0013</string>
 		<string>0014</string>
+		<string>0015</string>
+		<string>0016</string>
+		<string>0017</string>
+		<string>0018</string>
+		<string>0019</string>
+		<string>0020</string>
+		<string>0021</string>
+		<string>0022</string>
+		<string>0023</string>
+		<string>0024</string>
+		<string>0025</string>
+		<string>0026</string>
+		<string>0027</string>
+		<string>0028</string>
+		<string>0029</string>
+		<string>0030</string>
+		<string>0031</string>
+		<string>0032</string>
+		<string>0033</string>
+		<string>0034</string>
+		<string>0035</string>
+		<string>0036</string>
+		<string>0037</string>
 	</array>
 	<key>PointerActions</key>
 	<dict>
